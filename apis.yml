@@ -1,22 +1,75 @@
 aid: fort
 name: Fort
-description: Fort is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Fort is a Y Combinator (W26) hardware startup building a screenless wearable
+  that automatically tracks strength training for people who care about
+  longevity. Founded by three former Tesla engineers, the device uses heart
+  rate and motion sensing to detect gym sessions, workout classes, sleep, and
+  recovery without requiring the wearer to manually log reps, sets, or
+  exercises, then delivers actionable feedback on how lifestyle factors affect
+  strength progress. Fort is styled as jewelry rather than performance gear,
+  ships in three finishes with 7+ day battery life, and pairs with Fort
+  Foundations, an expert-led training program built around core movement
+  patterns. The product is currently available for pre-order and has no public
+  developer API or programmatic surface at this time; this profile captures the
+  company's public web and commercial presence.
 url: https://raw.githubusercontent.com/api-evangelist/fort/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://fort.cx/images/og-image.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
+x-yc-batch: W26
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Wearables
+- Health
+- Fitness
+- Strength Training
+- Consumer Hardware
+- Longevity
+- IoT
 apis: []
+common:
+- type: Website
+  url: https://fort.cx
+- type: Pricing
+  url: https://fort.cx/order
+- type: SignUp
+  url: https://fort.cx/waitlist
+- type: Support
+  url: https://fort.cx/faq
+- type: TermsOfService
+  url: https://fort.cx/terms
+- type: PrivacyPolicy
+  url: https://fort.cx/privacy
+- type: X-LinkedIn
+  url: https://www.linkedin.com/company/fortwearable
+- type: DomainSecurity
+  url: security/fort-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
